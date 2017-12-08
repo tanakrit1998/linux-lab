@@ -6,4 +6,4 @@ cd tanakritcli
 # ติดตั้ง
 pip install --user .
 # ทดสอบ
-getpotter twilight
+getposter twilight
