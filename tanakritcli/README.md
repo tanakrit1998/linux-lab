@@ -1,21 +1,12 @@
 # tanakritcli
-
-My Tool does one thing, and one thing well.
-
-
-# Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
-
-
-# Usage
-
-To use it:
-
-    $ tanakritcli --help
-
+## 3. เริ่มเขียนโปรแกรม 
+cd githubavatar
+# ติดตั้ง package ที่จำเป็น
+ pip install --user click requests Pillow
+ # เปิดไฟล์ เพื่อทำการแก้ไขคำสั่ง
+  gedit githubavatar/githubavatar/cli.py &
+ #บันทึกแล้วปิด
+# ติดตั้ง
+pip install --user .
+# ทดสอบ
+githubavatar twilight
